@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #6F2798;
+}
+#landing-page h1 {
+    text-align: center;
+    color: #fcfcfc;
+    font-size: 70px;
+}
+img.wieght-icon {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+button.start-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #27ABB9;
+    border: 1px solid #27ABB9;
+    width: 19%;
+    border-radius: 7px;
+    color: #fcfcfc;
+}
+#landing-page a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+#login-page form {
+    width: 60%;
+    display: block;
+    margin: 19% auto;
+}
+#login-page input[type="text"] {
+    width: 65%;
+    display: block;
+    margin: 5px auto;
+}
+#login-page input[type="password"] {
+    width: 65%;
+    margin: 6px auto;
+    display: block;
+}
+button.login-button {
+    display: block;
+    border: 1px solid;
+    margin: 4px auto;
+    border-radius: 5px;
+    width: 79px;
+}
+p {
+    width: 100%;
+    text-align: center;
+    margin-top: 23px;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+  #landing-page h1 {
+    text-align: center;
+    color: #fcfcfc;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 93px;
+  }
+  img.wieght-icon {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+  }
+  button.start-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #27ABB9;
+    border: 1px solid #27ABB9;
+    width: 20%;
+    font-size: 20px;
+    height: 38px;
+    border-radius: 7px;
+    color: #fcfcfc;
+  }
+}
+
