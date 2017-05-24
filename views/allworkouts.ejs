@@ -1,5 +1,8 @@
 <% include ./partials/head %>
 <body id="allworkout">
-    <%=name %>
+    <div class="workout">
+         <h3 class="workout-hero"><%=name %></h3>
+         <a href=<%="/workout/" + name%>><img src="/images/starlord.jpg" alt="starlord marvel superheros" class="superhero-icon" name="starlord"></a>
+    </div>
 </body>
 <% include partials/footer %>

@@ -79,5 +79,46 @@ p {
     border-radius: 7px;
     color: #fcfcfc;
   }
+  .workout {
+    width: 25%;
+    margin-left: 24px;
+  }
+  .workout-hero{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: #fcfcfc;
+  }
+  .superhero-icon{
+    width: 86%;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  h1.workout-title {
+    font-size: 100px;
+    text-align: center;
+    color: yellow;
+    }
+  ul.workoutname {
+    width: 41%;
+    display: inline-block;
+    font-size: 43px;
+    text-align: center;
+    color: #fcfcfc;
+    }
+    .workoutname h4 {
+    font-size: 54px;
+    margin-bottom: 2px;
+    }
+    .workoutname hr {
+    width: 61%;
+    }
+    li.workoutstat {
+    text-align: left;
+    margin-left: 19%;
+    list-style-type: none;
+    }
 }
 
