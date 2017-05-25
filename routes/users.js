@@ -1,6 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
+
+app.get('/profile', (req, res, next)=>{
+  res.render('profile')//add user info to pass into profile page
+})
 /*
     User Login 
 */

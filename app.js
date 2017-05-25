@@ -32,7 +32,13 @@ app.use(function(req, res, next) {
   err.status = 404;
   next(err);
 });
-
+app.use(session({
+    secret: 'littledebbiesareyum', // session secret
+    resave: true,
+    saveUninitialized: true
+}));
+app.use(passport.initialize());
+app.use(passport.session()); // persistent login sessions
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
